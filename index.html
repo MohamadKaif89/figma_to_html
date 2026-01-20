@@ -708,5 +708,27 @@
         <span>A Powerful Creation</span>
       </section>
     </footer>
+
+
+    <script>
+  document.querySelectorAll(".faq-header").forEach((header) => {
+    header.addEventListener("click", () => {
+      const currentItem = header.parentElement;
+
+      document.querySelectorAll(".faq-item").forEach((item) => {
+        if (item !== currentItem) {
+          item.classList.remove("active");
+          item.querySelector(".faq-icon").textContent = "+";
+        }
+      });
+
+      currentItem.classList.toggle("active");
+
+      const icon = header.querySelector(".faq-icon");
+      icon.textContent = currentItem.classList.contains("active") ? "−" : "+";
+    });
+  });
+</script>
+
   </body>
 </html>
