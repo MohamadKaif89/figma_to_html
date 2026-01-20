@@ -281,8 +281,6 @@ body {
   max-width: 1440px;
   margin: auto;
   height: 53px;
-  /* max-height: 56px; */
-  /* padding: 16px 70px; */
   display: flex;
   gap: 61px;
   align-items: center;
@@ -323,9 +321,6 @@ body {
 /* services section */
 
 .services {
-  /* background: #eefaf5; */
-  /* background-image: url(./images/bg-img.jpg);
-  border-radius: 0 300px 0 0; */
   padding-top: 100px;
 }
 
@@ -405,11 +400,6 @@ body {
   letter-spacing: 0.9px;
 }
 
-/* .service-card p {
-  font-size: 15px;
-  line-height: 1.6;
-  opacity: 0.9;
-} */
 
 .arrow {
   position: absolute;
@@ -463,36 +453,6 @@ body {
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
 }
-
-/* @media (max-width: 1280px) {
-  .plans-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-} */
-
-/* @media (max-width: 600px) {
-  .plans-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 16px;
-  }
-  .plan-body {
-    display: none;
-  }
-
-  .plan-card {
-    padding-bottom: 20px;
-  }
-
-  .price-circle {
-    width: 120px;
-    height: 120px;
-    bottom: -60px;
-  }
-
-  .plans h2 {
-    font-size: 28px;
-  }
-} */
 
 /* card */
 .plan-card {
@@ -2570,10 +2530,10 @@ body {
 
   .last-footer {
     border-top: 1px solid rgba(255, 255, 255, 0.25);
-    margin-top: 10px;
-    padding: 14px 20px;
-    display: flex;
-    flex-direction: column;
+   margin-top: -1px;
+        padding: 14px 20px;
+        display: flex;
+        flex-direction: row;
     gap: 6px;
     text-align: center;
     font-size: 12px;
